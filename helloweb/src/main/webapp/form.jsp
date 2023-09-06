@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Hello World</h1>
-	<a href="/helloweb/hello?name=songyuna">누르세요</a>
+	<form action="/helloweb/join.jsp" method="post">
+		<input type="text" name="email" value="">
+		<input type="submit" value="가입">
+	</form>
 </body>
 </html>
