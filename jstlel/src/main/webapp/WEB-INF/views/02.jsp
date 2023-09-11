@@ -12,9 +12,25 @@ pageContext.setAttribute("vo", vo0);
 <html>
 <head>
 <meta charset="UTF-8">
-<title>01.jsp</title>
+<title>02.jsp</title>
 </head>
 <body>
+	<h4>scope(객체의 존속 범위)</h4>
+	== page scope == <br>
+	${vo.no }<br>
+	${vo.name }<br>
+	
+	== request scope == <br>
+	${requestScope.vo.no }<br>
+	${requestScope.vo.name }<br>
+	
+	== session scope == <br>
+	${sessionScope.vo.no }<br>
+	${sessionScope.vo.name }<br>
+	
+	== application scope == <br>
+	${applicationScope.vo.no }<br>
+	${applicationScope.vo.name }<br>
 
 </body>
 </html>

@@ -8,7 +8,8 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>jstlel</artifactId>
-	<packaging>war</packaging>
+	<packaging>
+		war</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,6 +18,14 @@
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
 
+	<dependencies>
+		<!-- jstl -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<finalName>jstlel</finalName>
